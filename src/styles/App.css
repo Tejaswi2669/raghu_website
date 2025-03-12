@@ -1,0 +1,105 @@
+/* Reset & Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main App Layout */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1; /* Pushes footer to bottom */
+  padding: 2rem;
+  text-align: center;
+}
+
+/* 🚀 Modern Header Styles */
+header {
+  background: linear-gradient(135deg, #046bd2, #034a92);
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* 🌟 Sticky Footer Fix */
+footer {
+  background: linear-gradient(135deg, #046bd2, #034a92);
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 16px;
+  width: 100%;
+  margin-top: auto; /* Ensures it stays at the bottom */
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Animations */
+footer:hover {
+  background: #033e7e;
+}
+
+footer p {
+  font-size: 14px;
+  opacity: 0.9;
+  transition: opacity 0.3s ease-in-out;
+}
+
+footer p:hover {
+  opacity: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav ul {
+      flex-direction: column;
+      gap: 15px;
+  }
+
+  header {
+      padding: 1rem;
+  }
+
+  footer {
+      padding: 1rem;
+  }
+}

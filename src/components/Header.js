@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-//import './Header.css'; // For styling the navbar
+import './Header.css';
 
 const Header = () => {
     return (
-        <header>
-            <h1>Raghu Rocks - Crafted for Life</h1>
+        <header className="main-header">
+            <div className="logo">Raghu Rocks</div>
             <nav>
-                <ul>
+                <ul className="nav-links">
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/gallery">Gallery</Link></li>

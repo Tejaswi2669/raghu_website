@@ -1,0 +1,50 @@
+/* Gallery.css */
+
+.gallery-wrapper {
+    /* A little padding around the main area */
+    padding: 2rem;
+    background: #f7f9fc; /* Soft background color */
+    min-height: 100vh;   /* Full viewport height if desired */
+    box-sizing: border-box;
+  }
+  
+  /* Title styling */
+  .gallery-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  /* Container for the images */
+  .gallery-container {
+    display: grid;
+    /* 
+      auto-fill tries to fit as many columns as possible
+      minmax(250px, 1fr) means each column is at least 250px wide, 
+      and can stretch to fill available space 
+    */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 1.5rem;
+    max-width: 1200px; /* optional: to limit max width */
+    margin: 0 auto;    /* center the grid in the page */
+    align-items: start;
+  }
+  
+  /* Individual images */
+  .gallery-image {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Hover effect */
+  .gallery-image:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  

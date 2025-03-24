@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/raghu_website/static/css/main.5e2b56e8.css",
-    "main.js": "/raghu_website/static/js/main.21ab7216.js",
+    "main.js": "/raghu_website/static/js/main.5aa186a2.js",
     "static/js/453.5ca3452b.chunk.js": "/raghu_website/static/js/453.5ca3452b.chunk.js",
     "static/media/SteelGrayDark.jpg": "/raghu_website/static/media/SteelGrayDark.0a87d95debfa134a4ae1.jpg",
     "static/media/SteelGray.jpg": "/raghu_website/static/media/SteelGray.6563747fc79f02f8022a.jpg",
@@ -12,11 +12,11 @@
     "static/media/slick.woff": "/raghu_website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/raghu_website/index.html",
     "main.5e2b56e8.css.map": "/raghu_website/static/css/main.5e2b56e8.css.map",
-    "main.21ab7216.js.map": "/raghu_website/static/js/main.21ab7216.js.map",
+    "main.5aa186a2.js.map": "/raghu_website/static/js/main.5aa186a2.js.map",
     "453.5ca3452b.chunk.js.map": "/raghu_website/static/js/453.5ca3452b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e2b56e8.css",
-    "static/js/main.21ab7216.js"
+    "static/js/main.5aa186a2.js"
   ]
 }

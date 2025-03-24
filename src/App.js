@@ -11,6 +11,7 @@ import './styles/App.css';
 
 const App = () => {
     return (
+        <BrowserRouter basename="/raghu_website"> 
         <div id="root">
             <Header />
             <main>
@@ -24,6 +25,7 @@ const App = () => {
             </main>
             <Footer />
         </div>
+        </BrowserRouter>
     );
 };
 

@@ -15,8 +15,8 @@ const App = () => {
             <Header />
             <main>
                 <Routes>
-                <Route index element={<HomePage />} /> {/* ✅ default route */}
-                <Route path="/home" element={<HomePage />} />
+                <Route index element={<Home />} /> {/* ✅ default route */}
+                <Route path="/home" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/gallery" element={<Gallery />} />
                     <Route path="/contact" element={<Contact />} />

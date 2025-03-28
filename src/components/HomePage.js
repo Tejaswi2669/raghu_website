@@ -72,7 +72,7 @@ const HomePage = () => {
 
     return (
         <main>
-        <h2>Welcome to Raghu Rocks</h2>
+        <h2>Welcome to Haripriya granites</h2>
         <p>Premium quality crafted stones for all your needs.</p>
     
         <section className="product-showcase">
@@ -82,7 +82,7 @@ const HomePage = () => {
         <div className="feature-box">
             <h3>NATURAL STONES</h3>
             <p>
-                Raghu Natural Stones offers a comprehensive list of natural stone products,
+            Haripriya granites offers a comprehensive list of natural stone products,
                 including granite, marble, and other natural stones.
             </p>
         </div>

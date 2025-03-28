@@ -11,17 +11,18 @@ const Contact = () => {
                 <div className="card">
                     <FaMapMarkerAlt className="icon" />
                     <h3>Address</h3>
-                    <p>16-1-25, Main Road, Gandhi Chowk, Tenali<br />522201</p>
+                    <p>Konidena Rd, K.Rajupalem,Bapatla district, Andhra Pradesh<br />523301</p>
                 </div>
                 <div className="card">
                     <FaPhoneAlt className="icon" />
                     <h3>Call Us</h3>
-                    <p>8143577577</p>
+                    <p>8897675338</p>
+                    <p>7795183942</p>
                 </div>
                 <div className="card">
                     <FaEnvelope className="icon" />
                     <h3>Email Us</h3>
-                    <p>info@spdstores.com</p>
+                    <p>Jasti.Raghuram@gmail.com</p>
                 </div>
             </div>
 
@@ -29,7 +30,7 @@ const Contact = () => {
                 <div className="map-container">
                     <iframe
                         title="Location"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3831.7476240306637!2d80.64819927595459!3d16.243582734708263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a06f65a97c4c3%3A0x5bda0a9617a06e96!2sSri%20Purna%20Department%20Stores!5e0!3m2!1sen!2sin!4v1711286476109!5m2!1sen!2sin"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3125.476703436209!2d80.0817277!3d16.0076391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a8b855f171f0d%3A0x339f4b9f8f282d99!2sHaripriya%20Granites!5e0!3m2!1sen!2sin!4v1586879649742" 
                         width="100%"
                         height="100%"
                         style={{ border: 0 }}
